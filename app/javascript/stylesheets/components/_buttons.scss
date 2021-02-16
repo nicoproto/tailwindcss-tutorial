@@ -1,0 +1,14 @@
+.btn {
+  @apply px-12 py-3 rounded border inline-block;
+  @apply focus:outline-none transition duration-300;
+}
+
+.btn-main {
+  @apply bg-yellow-400 text-white border-yellow-400;
+  @apply hover:bg-yellow-300 hover:border-yellow-300;
+}
+
+.btn-ghost {
+  @apply bg-white text-yellow-400 border-yellow-400;
+	@apply hover:text-white hover:bg-yellow-400;
+}
